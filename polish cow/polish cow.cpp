@@ -43,7 +43,7 @@ void polishCow(char text[max], FILE* f)
 	for (i = 0; text[i] != '\0'; i++) {
 		pR = priorCheck(text[i]);
 		if (text[i] == '\n') {}
-		else if (text[i] == ' ' || isdigit(text[i])) {
+		else if (text[i] == ' ' || isdigit(text[i]) || isalpha(text[i])) {
 			result[k++] = text[i];
 		}
 		else if (tos == 0 || pR == 0) {
