@@ -14,8 +14,8 @@
 34 8 * 9 4 / + 10 10 8 6 * - * - 
 29 38 2 / + 8 3 + 5 2 / - 3 * * 1 + 
 1 4 + 3 4 - 5 3 + 2 - * / 
-x y u z * k + * + 
-t r * u y * + h + 
-m n u l * y * h + * + 
-h t + f d * + w + y * r * 
-r c y i + j * * f + w * * p + 
+x y u z & k | & | 
+t r & u y & | h | 
+m n u l & y & h | & | 
+h t | f d & | w | y & r & 
+r c y i | j & & f | w & & p |
