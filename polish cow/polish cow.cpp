@@ -30,8 +30,8 @@ int priorCheck(char t)
 {
 	if (t == '(') return 0;
 	else if (t == ')') return 1;
-	else if (t == '+' || t == '-') return 2;
-	else if (t == '*' || t == '/') return 3;
+	else if (t == '+' || t == '-' || t == '|') return 2;
+	else if (t == '*' || t == '/' || t == '&') return 3;
 	else if (t == '^') return 4;
 	else return 5;
 }
